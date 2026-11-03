@@ -2,28 +2,28 @@
 class Capcomd < Formula
   desc "Orchestrate Claude Code and Codex agents in isolated VMs"
   homepage "https://github.com/MarvinAmador7/capcomd"
-  version "0.7.0"
+  version "0.8.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/MarvinAmador7/capcomd/releases/download/v0.7.0/capcomd-darwin-arm64"
-      sha256 "7375f1bb92e0a4061c24bb2564ba44d7a5b1a8a465897f0d35f066b137ff6b8d"
+      url "https://github.com/MarvinAmador7/capcomd/releases/download/v0.8.0/capcomd-darwin-arm64"
+      sha256 "1fac1de8be92a7d42fa1324b04d08e500807d007bf1782d6b4258bdc7025f79a"
     end
     on_intel do
-      url "https://github.com/MarvinAmador7/capcomd/releases/download/v0.7.0/capcomd-darwin-x64"
-      sha256 "052f056f3d501cfc06d5a2f96897e65c908416a86ba0196d56ad7f874d589090"
+      url "https://github.com/MarvinAmador7/capcomd/releases/download/v0.8.0/capcomd-darwin-x64"
+      sha256 "2c819a369afaefec34c2a18fb46061708f8fe93a4dadb6829ecd9b128e5e92b0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/MarvinAmador7/capcomd/releases/download/v0.7.0/capcomd-linux-arm64"
-      sha256 "985ad67b2d90de8de48efe797824085f8e7084770f305978eef7f6a3a0597845"
+      url "https://github.com/MarvinAmador7/capcomd/releases/download/v0.8.0/capcomd-linux-arm64"
+      sha256 "e6ced9dc60e18799febc712507b358e50ecb514ad002f8fa2f5b36b5925db8e9"
     end
     on_intel do
-      url "https://github.com/MarvinAmador7/capcomd/releases/download/v0.7.0/capcomd-linux-x64"
-      sha256 "e4484a6d2b55192a3ac6f0c8b62f6c9173ab925eac7b008dc9009268f613c20a"
+      url "https://github.com/MarvinAmador7/capcomd/releases/download/v0.8.0/capcomd-linux-x64"
+      sha256 "f772bf8d326ecea08cc88576aa2c1502e68b0698017776d9f103d47fd795e6d7"
     end
   end
 
